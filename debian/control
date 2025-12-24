@@ -18,7 +18,7 @@ Testsuite: autopkgtest-pkg-pybuild
 
 Package: python3-libarchive-c
 Architecture: all
-Depends: libarchive13t64, ${misc:Depends}, ${python3:Depends}
+Depends: libarchive13, ${misc:Depends}, ${python3:Depends}
 Description: Python3 interface to libarchive
  The libarchive library provides a flexible interface for reading and writing
  archives in various formats such as tar and cpio. libarchive also supports
